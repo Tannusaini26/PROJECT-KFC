@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="images/favicon.jpg">
+    <link rel="stylesheet" href="menu.css">
+    <title>KFC</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+    <div class="container">
+        <nav class="navbar colour">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <a class="navbar-brand name" href="#">KFC</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <!-- <li class="active"><a href="#">Home</a></li> -->
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Deals</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <i class="fas fa-inr mr-2 rupay">0</i>
+                    <a href="#"><img src="images/bucket.png" alt="kfc bucket" class="bucket"></a>
+                    <!-- <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+                </ul>
+            </div>
+        </nav>
+    </div>
+    </header>
+    <!-- header end -->
+    <!-- start order -->
+    <div id="order">
+        <h4 id="line">LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN
+        <button type="button" class="btn btn-danger start">Start Order</button></h4>
+    </div>
+    <!-- kfc -->
+    <div class="container menupage"> 
+        <!-- kfc search -->
+        <div id="search">
+            <form id="searchform">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search our menu">
+                    <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                    </div>
+                </div>
+            </form>
+            <hr>
+            
+            <h2 class="menuheading">MATCH DAY SPECIALS</h2>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/kfc4.avif" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Super 6s Bucket Meal</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">931.43</i>
+                    <p>Save 21% on combo of 6 Hot & Crispy Chicken, 6 strips, Medium fries & Pepsi PET [serves 3]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/kfc4.avif" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Super 4s Bucket Meal</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">827.62</i>
+                    <p>Enjoy 4 Hot & Crispy Chicken, 4 strips, Medium Popcorn & Pepsi PET -save Rs.79 [serves 2-3]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="Images/kfc3.avif" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Super 6s Bucket</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">827.62</i>
+                    <p>Save Rs. 203 on combo of 6 Hot & Crispy Chicken & 6 Strips [serves 3]
+                    </p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Super 4s Bucket</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">579.05</i>
+                    <p>Flat Rs. 107 off on combo of 4 Hot & Crispy Chicken & 4 Strips [serves 2]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <h2 class="menuheading">CHICKEN BUCKETS</h2>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Ultimate Savings Bucket</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">699.05</i>
+                    <p>Save 35% on signature bucket of 4pc Hot & crispy, 6 Wings, 4 strips, 3 Dips & Pepsi PET [serves 2-3 ]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">5pc Leg Piece Bucket Meal</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">619.05</i>
+                    <p>Save 22% on 5 chicken Leg Pieces, 2 dips, 1 Medium Fries & a Pepsi PET [serves 2 ]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Mingles Bucket Meal</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">479.05</i>
+                    <p>Save Rs. 71 on 4 Hot Wings, 2 Chicken Strips, Reg Popcorn, medium fries & Pepsi PET [serves 2 ]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Friendship Bucket</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">699.05</i>
+                    <p>Save Rs. 172 on 3pc Hot & Crispy, 3 Hot Wings, 3 Chicken Strips & a Large Popcorn [serves 3]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <h2 class="menuheading">CHICKEN ROLLS</h2>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Double Rolls Combo for 2</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">550.48</i>
+                    <p>Deal combo of 2 New Double Chicken Rolls, Large Fries, 2 Dips & 1 Pepsi PET [serves 2]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Single Roll Combo for 2</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">470.48</i>
+                    <p>Deal combo of 2 New Single Chicken Rolls, Large Fries, 2 Dips & 1 Pepsi PET [serves 2]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Double Roll Combo for 1</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">380.00</i>
+                    <p>Deal combo of 1 New Double Chicken Roll, Large Fries, 2 Dips & 1 Pepsi PET [serves 1]
+                    </p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Single Roll Combo for 1</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">340.00</i>
+                    <p>Deal combo of 1 New Single Chicken Roll, Large Fries, 2 Dips & 1 Pepsi PET [serves 1]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <h2 class="menuheading">BIRYANI BUCKETS</h2>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Classic Biryani Combo</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">740.00</i>
+                    <p>Large portions of Biryani rice with 2 pc Hot & Crispy, 2 Gravies, 4 Strips & Pepsi PET [serves 2-3]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Smoky Grilled Biryani Combo</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">740.00</i>
+                    <p>Large portions of Biryani rice with 2 pc Smoky Red, 2 Gravies, Med Popcorn & Pepsi PET [serves 2-3]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Howzzat Biryani Combo</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">690.48</i>
+                    <p>Large portions of Biryani & Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & Pepsi PET [serves 2-3]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Classic Chicken Biryani Bucket-Large</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">475.24</i>
+                    <p>Large portions of Biryani rice served with 2 pc Hot & Crispy Chicken & 2 Gravies [serves 2]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <h2 class="menuheading">BOX MEALS</h2>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">All Chicken Box</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">189.52</i>
+                    <p>A Box with your favorites! Get 1 pc Hot & Crispy, 2 Hot Wings & 1 Chicken Strip at a deal price</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Classic Zinger Box</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">313.33</i>
+                    <p>A classic deal for Zinger lovers : Get 1 Classic Zinger, 2 Hot Wings, 1 Veg Patty & Pepsi</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Zinger Tandoori Box</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">313.33</i>
+                    <p>A deal for the Tandoori lovers : Get 1 Tandoori Zinger, 2 Hot Wings, 1 Veg Patty & Pepsi</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Popcorn Biryani Box</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">328.57</i>
+                    <p>Biryani lovers unite : Get 1 Popcorn Biryani Bucket with gravy, 2 Hot Wings & Pepsi</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <h2 class="menuheading">BURGERS</h2>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">2 Chicken Krisper Burgers</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">228.57</i>
+                    <p>2 delicious chicken value burgers - at a deal price</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">2 Veg Krisper Burgers</p>
+                    <p>Veg</p>
+                    <i class="fas fa-inr mr-2 rupay">158.10</i>
+                    <p>2 delicious veg value burgers - at a deal price
+                    </p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Chicken & Krispers Combo</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">519.05</i>
+                    <p>Deal combo of 2 chicken value burgers, 2 pc Hot & Crispy, 2 dips & a chilled Pepsi PET</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Veg-Non-Veg Krispers Combo</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">368.57</i>
+                    <p>Pack of 4 burgers - 2 veg & 2 chicken value burgers at a deal price !</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <h2 class="menuheading">STAY HOME SPECIALS</h2>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Super Snacker Combo</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">450.48</i>
+                    <p>Best of snacks with a Medium Popcorn, 4 strips, 1 dip & a chilled Pepsi Black [serves 1-2]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Chicken Wings Combo</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">450.48</i>
+                    <p>Enjoy 2pc Hot & Crispy Chicken, 4 wings , 2 dips & a chilled Pepsi Black [serves 1-2]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Classic Biryani Combo</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">740.00</i>
+                    <p>Large portions of Biryani rice with 2 pc Hot & Crispy, 2 Gravies, 4 Strips & Pepsi PET [serves 2-3]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+
+            <div class="card cards">
+                <img class="card-img-top cardimage" src="images/card3.png" alt="Card image">
+                <div class="card-body carddetail">
+                    <p class="card-title cardhead">Classic Zinger Meal</p>
+                    <p>Non veg</p>
+                    <i class="fas fa-inr mr-2 rupay">344.76</i>
+                    <p>Favorite combo of Classic Zinger Burger, Medium Fries & a chilled Pepsi Black [serves 1]</p>
+                    <button class="cartbutton">Add to Cart<i class="glyphicon glyphicon-shopping-cart carticon"></i> 
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+        <!-- kfc menu -->
+        <div id="kfcmenu">
+            <div class="red"></div>
+            <div class="red"></div>
+            <div class="red"></div>
+            <h1 id="kfch1">KFC MENU</h1>
+                <h4 class="kfclist">MATCH DAY SPECIALS</h4>
+                <h4 class="kfclist">CHICKEN BUCKETS</h4>
+                <h4 class="kfclist">CHICKEN ROLLS</h4>
+                <h4 class="kfclist">BIRYANI BUCKETS</h4>
+                <h4 class="kfclist">BOX MEALS</h4>
+                <h4 class="kfclist">BURGERS</h4>
+                <h4 class="kfclist">STAY HOME SPECIALS</h4>
+        </div>
+    </div>
+    
+    <!-- kfc -->
+    <!-- footer -->
+    <footer>
+        <div id="footerbox">
+            <div class="container">
+                <img src="images/footerlogo.png" alt="footerlogo" id="footimg">
+                <ul class="list">
+                    <li>KFC Food</li>
+                    <li>Menu</li>
+                    <li>Order Lookup</li>
+                    <li>Gift Card</li>
+                </ul>
+                <ul class="list">
+                    <li>Support</li>
+                    <li>Get Help</li>
+                    <li>Contact Us</li>
+                    <li>KFC Feedback</li>
+                </ul>
+                <ul class="list">
+                    <li>Legal</li>
+                    <li>Terms and Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>Disclaimer</li>
+                    <li>Caution Notice</li>
+                </ul>
+                <ul class="list">
+                    <li>KFC India</li>
+                    <li>About KFC</li>
+                    <li>KFC Care</li>
+                    <li>Careers</li>
+                    <li>Our Golden Past</li>
+                </ul>
+                <h6 class="footlist"><i class="fas fa-map-marker-alt location"></i>Find a KFC</h6>
+                <a href="www.facebook.com"><i class="fab fa-facebook icon"></i></a>
+                <a href="www.instagram.com"><i class="fab fa-instagram icon"></i></a>
+                <a href="www.twitter.com"><i class="fab fa-twitter icon"></i></a>
+                <div id="copy">
+                    <hr>
+                    copyright &copy KFC Corporation 2022 All Rights Reserved
+                </div>
+            </div>
+        </div>
+        
+        </footer>
+        <!-- footer end -->
+    </body>
+    </html>
